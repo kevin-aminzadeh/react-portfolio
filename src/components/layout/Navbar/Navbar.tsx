@@ -1,8 +1,8 @@
 import React from 'react';
 import './Navbar.scss';
-import { Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-const Navbar: React.FC = (props) => (
+const Navbar: React.FC = () => (
   <header>
     <nav className="navbar navbar-expand-lg navbar-light px-4">
       <div className="container-fluid">
