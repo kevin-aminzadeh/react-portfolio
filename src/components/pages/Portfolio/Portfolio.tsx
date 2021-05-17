@@ -15,7 +15,12 @@ const Portfolio: React.FC = () => (
     <div className="project-gallery mb-5">
       <div className="row">
         <ProjectCard
-          name="Searchify"
+          name="Ivy Inventory Management App"
+          url="https://ivy-inventory-management.herokuapp.com/dashboard"
+          imageSrc="https://github.com/kevin-aminzadeh/inventory-management-app/raw/main/images/orderlist.png"
+        />
+        <ProjectCard
+          name="Searchify Web App"
           url="https://github.com/kevin-aminzadeh/Searchify"
           imageSrc="https://github.com/Travis297/Searchify/blob/main/assets/images/screenshot-2.png?raw=true"
         />
@@ -28,6 +33,16 @@ const Portfolio: React.FC = () => (
           name="Code Quiz"
           url="https://github.com/kevin-aminzadeh/04-code-quiz"
           imageSrc="https://github.com/kevin-aminzadeh/javascript-code-quiz/raw/main/assets/img/screenshot.gif"
+        />
+        <ProjectCard
+          name="MongoDB Fitness Tracker"
+          url="https://fitness-tracker-4.herokuapp.com/"
+          imageSrc="https://github.com/kevin-aminzadeh/node-fitness-tracker/raw/main/assets/img/demo.gif"
+        />
+        <ProjectCard
+          name="React.js Employee Directory"
+          url="https://kevin-aminzadeh.github.io/react-employee-directory"
+          imageSrc="https://github.com/kevin-aminzadeh/react-employee-directory/raw/main/public/assets/img/demo.gif"
         />
       </div>
     </div>
