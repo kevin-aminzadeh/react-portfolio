@@ -1,6 +1,7 @@
 import React from 'react';
+import ProjectCard from '../../ProjectCard/ProjectCard';
 
-const Portfolio: React.FC = (props) => (
+const Portfolio: React.FC = () => (
   <section id="portfolio">
     <div className="row mb-5 mt-lg-5">
       <div className="col">
@@ -13,48 +14,21 @@ const Portfolio: React.FC = (props) => (
 
     <div className="project-gallery mb-5">
       <div className="row">
-        <div className="col-xs-12 col-md-6 col-lg-4 p-3">
-          <div className="card bg-dark text-white border-0">
-            <a
-              href="https://github.com/kevin-aminzadeh/Searchify"
-              className="stretched-link"
-            >
-              <img
-                className="card-img"
-                src="https://github.com/Travis297/Searchify/blob/main/assets/images/screenshot-2.png?raw=true"
-                alt="Searchify Web App Demo"
-              />
-            </a>
-          </div>
-        </div>
-        <div className="col-xs-12 col-md-6 col-lg-4 p-3">
-          <div className="card bg-dark text-white border-0">
-            <a
-              href="https://github.com/kevin-aminzadeh/03-javascript-password-generator"
-              className="stretched-link"
-            >
-              <img
-                className="card-img"
-                src="https://github.com/kevin-aminzadeh/03-javascript-password-generator/raw/main/assets/img/03-javascript-homework-demo.png"
-                alt="Javascript Password Generator Demo"
-              />
-            </a>
-          </div>
-        </div>
-        <div className="col-xs-12 col-md-6 col-lg-4 p-3">
-          <div className="card bg-dark text-white border-0">
-            <a
-              href="https://github.com/kevin-aminzadeh/04-code-quiz"
-              className="stretched-link"
-            >
-              <img
-                className="card-img"
-                src="https://github.com/kevin-aminzadeh/javascript-code-quiz/raw/main/assets/img/screenshot.gif"
-                alt="Code Quiz"
-              />
-            </a>
-          </div>
-        </div>
+        <ProjectCard
+          name="Searchify"
+          url="https://github.com/kevin-aminzadeh/Searchify"
+          imageSrc="https://github.com/Travis297/Searchify/blob/main/assets/images/screenshot-2.png?raw=true"
+        />
+        <ProjectCard
+          name="Javascript Password Generator"
+          url="https://github.com/kevin-aminzadeh/03-javascript-password-generator"
+          imageSrc="https://github.com/kevin-aminzadeh/03-javascript-password-generator/raw/main/assets/img/03-javascript-homework-demo.png"
+        />
+        <ProjectCard
+          name="Code Quiz"
+          url="https://github.com/kevin-aminzadeh/04-code-quiz"
+          imageSrc="https://github.com/kevin-aminzadeh/javascript-code-quiz/raw/main/assets/img/screenshot.gif"
+        />
       </div>
     </div>
   </section>
