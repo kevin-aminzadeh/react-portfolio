@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "homepage": "https://kevin-aminzadeh.github.io/react-portfolio",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server/server.js",
@@ -22,10 +23,10 @@
   "bugs": {
     "url": "https://github.com/kevin-aminzadeh/react-portfolio/issues"
   },
-  "homepage": "https://github.com/kevin-aminzadeh/react-portfolio#readme",
   "dependencies": {
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
     "if-env": "^1.0.4",
     "nodemailer": "^6.6.0"
   },
