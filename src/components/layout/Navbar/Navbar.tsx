@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.scss';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar: React.FC = () => (
   <header>
@@ -42,19 +42,19 @@ const Navbar: React.FC = () => (
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link to="/portfolio" className="nav-link">
+              <NavLink to="/portfolio" className="nav-link">
                 <span className="text-primary">01.</span> Portfolio
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link">
+              <NavLink to="/about" className="nav-link">
                 <span className="text-primary">02.</span> About
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link">
+              <NavLink to="/contact" className="nav-link">
                 <span className="text-primary">03.</span> Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
