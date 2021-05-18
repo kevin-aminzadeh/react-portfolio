@@ -2,12 +2,6 @@ import { type } from 'os';
 import React, { useRef, useState } from 'react';
 import API from '../../../utils/API';
 
-type FormObject = {
-  name: string;
-  email: string;
-  message: string;
-};
-
 const Contact: React.FC = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
   const nameInputRef = useRef<HTMLInputElement>(null);
