@@ -62,7 +62,11 @@ const About: React.FC = () => (
       </div>
 
       <div className="col-10 order-1 col-lg-5 mb-4 mx-auto">
-        <img src="./assets/img/dp.png" alt="" className="img-thumbnail" />
+        <img
+          src="https://kevin-aminzadeh.github.io/bootstrap-responsive-portfolio/assets/img/dp.png"
+          alt=""
+          className="img-thumbnail"
+        />
       </div>
     </div>
   </section>
