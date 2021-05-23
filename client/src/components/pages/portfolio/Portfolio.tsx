@@ -25,9 +25,9 @@ const Portfolio: React.FC = () => (
           imageSrc="https://github.com/Travis297/Searchify/blob/main/assets/images/screenshot-2.png?raw=true"
         />
         <ProjectCard
-          name="Javascript Password Generator"
-          url="https://github.com/kevin-aminzadeh/03-javascript-password-generator"
-          imageSrc="https://github.com/kevin-aminzadeh/03-javascript-password-generator/raw/main/assets/img/03-javascript-homework-demo.png"
+          name="React.js Google Book Search"
+          url="https://github.com/kevin-aminzadeh/react-google-books-search"
+          imageSrc="https://github.com/kevin-aminzadeh/react-google-books-search/raw/main/assets/demo.gif"
         />
         <ProjectCard
           name="Code Quiz"
