@@ -23,7 +23,7 @@
     },
     "ecmaVersion": 2018,
     "sourceType": "module",
-    "project": "./tsconfig.eslint.json"
+    "project": "./client/tsconfig.eslint.json"
   },
   "plugins": ["react", "react-hooks", "@typescript-eslint", "jest"],
   "rules": {
